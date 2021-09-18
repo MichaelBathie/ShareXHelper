@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "C:\Users\mjbathtub\Documents\GitHub\ShareXHelper\shareXHelper.bat", 0, True

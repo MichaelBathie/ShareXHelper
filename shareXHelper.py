@@ -4,6 +4,7 @@ import pathlib
 import shutil
 import getpass
 import keyboard
+from win10toast import ToastNotifier
 
 USERNAME = getpass.getuser()
 
@@ -54,6 +55,11 @@ def run():
 #########################################################################################################
 
 if __name__ == "__main__":
+  toast = ToastNotifier()
+  toast.show_toast("ShareX Helper","Process started", duration=30)
+
+  os.chdir('C:\\Users\\{}\\Documents\\GitHub\\ShareXHelper'.format(USERNAME))
+
   keyboard.add_hotkey('ctrl+alt+p', run)
   while True:
     keyboard.wait('ctrl+alt+p')
