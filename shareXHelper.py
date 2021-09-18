@@ -54,7 +54,7 @@ def run():
 #########################################################################################################
 
 if __name__ == "__main__":
-  keyboard.add_hotkey('ctrl+p', run)
+  keyboard.add_hotkey('ctrl+alt+p', run)
   while True:
     keyboard.wait('ctrl+alt+p')
 
