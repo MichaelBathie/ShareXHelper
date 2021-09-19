@@ -1,6 +1,4 @@
 # ShareXHelper
-pressing ctrl+alt+p will open a temp folder containing your most recent screenshot  
+pressing ctrl+alt+p will open a temp folder containing your most recent screenshot. This also assume you have your ShareX in the default location.    
   
-You'll need to change the bat and vbs files to have your username in them if you want to use it. This also assume you have your ShareX in the default location.  
-  
-You can also add the vbs file to your registry for it to run on startup if you want
+If you want it to run on startup put the vbs file in your registry. vbs+bat files will also have to be changed to your windows username
