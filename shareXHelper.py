@@ -8,9 +8,6 @@ from win10toast import ToastNotifier
 
 USERNAME = getpass.getuser()
 
-p_down = False;
-ctrl_down = False
-
 def find_recent_folder():
   #assume default ShareX location
   folder_list = glob.glob('C:\\Users\\{}\\Documents\\Sharex\\Screenshots\\*'.format(USERNAME))
