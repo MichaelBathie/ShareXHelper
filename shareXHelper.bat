@@ -1,5 +1,5 @@
 @echo off
 
-python C:\Users\mjbathtub\Documents\GitHub\ShareXHelper\shareXHelper.py
+python C:\Users\YOUR_USERNAME\Documents\GitHub\ShareXHelper\shareXHelper.py
 
 @pause
